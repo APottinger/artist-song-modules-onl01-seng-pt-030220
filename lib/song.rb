@@ -18,10 +18,6 @@ class Song
   attr_accessor :name
   attr_reader :artist
 
-  def initialize
-    @songs << self
-  end
-
   def artist=(artist)
     @artist = artist
   end
